@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-prometheus"
+  spec.name          = "fluent-plugin-prometheus-k8s"
   spec.version       = "0.3.0"
   spec.authors       = ["Masahiro Sano"]
   spec.email         = ["sabottenda@gmail.com"]
   spec.summary       = %q{A fluent plugin that collects metrics and exposes for Prometheus.}
   spec.description   = %q{A fluent plugin that collects metrics and exposes for Prometheus.}
-  spec.homepage      = "https://github.com/kazegusuri/fluent-plugin-prometheus"
+  spec.homepage      = "https://github.com/ottoyiu/fluent-plugin-prometheus"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
